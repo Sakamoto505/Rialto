@@ -1,14 +1,14 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.7.3"
+ruby "3.0.6"
 
 gem "active_type"
 gem "bcrypt"
 gem "bootsnap", require: false
 gem "good_migrations"
 gem "importmap-rails"
-gem "pg", "~> 1.1"
+gem "pg"
 gem "pgcli-rails"
 gem "puma", "~> 5.0"
 gem "rack-canonical-host"

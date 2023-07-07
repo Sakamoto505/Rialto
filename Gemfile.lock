@@ -319,7 +319,7 @@ DEPENDENCIES
   launchy
   letter_opener
   minitest-ci
-  pg (~> 1.1)
+  pg
   pgcli-rails
   postmark-rails
   puma (~> 5.0)
@@ -341,7 +341,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 2.7.3p183
+   ruby 3.0.6p216
 
 BUNDLED WITH
    2.3.24
