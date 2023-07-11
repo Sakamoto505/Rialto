@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.6"
 
+gem "slim-rails"
+gem 'slim'
+
 gem "active_type"
 gem "bcrypt"
 gem "bootsnap", require: false
