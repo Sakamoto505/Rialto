@@ -3,6 +3,8 @@ h1
 p
   = @bulletin.description
 p
+  = @bulletin.price
+p
 
 = link_to 'Edit ', edit_bulletin_path(@bulletin)
 = link_to 'Delete ', bulletin_path(@bulletin), data: {turbo_method: :delete, turbo_confirm: 'Are you sure?'}

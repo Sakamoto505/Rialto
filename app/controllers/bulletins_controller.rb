@@ -46,6 +46,6 @@ class BulletinsController < ApplicationController
   end
 
   def bulletin_params
-    params.require(:bulletin).permit(:title, :description)
+    params.require(:bulletin).permit(:title, :description, :price)
   end
 end

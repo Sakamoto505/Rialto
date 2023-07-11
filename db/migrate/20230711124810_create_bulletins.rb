@@ -3,6 +3,7 @@ class CreateBulletins < ActiveRecord::Migration[7.0]
     create_table :bulletins do |t|
       t.string :title
       t.text :description
+      t.decimal :price, precision: 10, scale: 2
 
       t.timestamps
     end
