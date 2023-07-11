@@ -1,0 +1,9 @@
+h1
+  = @bulletin.title
+p
+  = @bulletin.description
+p
+
+= link_to 'Edit ', edit_bulletin_path(@bulletin)
+= link_to 'Delete ', bulletin_path(@bulletin), data: {turbo_method: :delete, turbo_confirm: 'Are you sure?'}
+= link_to 'Home', root_path
